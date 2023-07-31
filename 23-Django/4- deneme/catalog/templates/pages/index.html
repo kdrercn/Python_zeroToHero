@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="col d-flex justify-content-center">
+    
+    <div class="card bg-danger border-dark">
+        <div>
+            <h4>#0</h4>
+        </div>
+        <img class="card-img-top" src="{% static 'img/1.jpg' %}"  alt="">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">Damian Lillard</h4>
+            <a class="btn btn-danger d-flex justify-content-center border-dark" href="https://www.espn.com/nba/player/_/id/6606/damian-lillard"  target="_blank">See Profile</a>
+        </div>
+        
+        
+    </div>
+
+    <div class="card bg-success border-dark">
+        <div>
+            <h4>#36</h4>
+        </div>
+        <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">Marcus Smart</h4>
+            <a class="btn border-dark btn-success d-flex justify-content-center" href="https://www.espn.com/nba/player/_/id/2990992/marcus-smart"  target="_blank">See Profile</a>
+        </div>
+    </div>
+</div>
+<div class="col d-flex justify-content-center">
+    <div class="card bg-danger border-dark">
+        <div>
+            <h4>#22</h4>
+        </div>
+        <img src="{% static 'img/3.jpg' %}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">Jimmy Butler</h4>
+            <a class="btn border-dark btn-danger d-flex justify-content-center" href="https://www.espn.com/nba/player/_/id/6430/jimmy-butler"  target="_blank">See Profile</a>
+        </div>
+    </div>
+
+    <div class="card border-dark bg-danger">
+        <div>
+            <h4>#13</h4>
+        </div>
+        <img src="{% static 'img/5.jpg' %}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">Bam Adebayo</h4>
+            <a class="btn border-dark btn-danger d-flex justify-content-center" href="https://www.espn.com/nba/player/_/id/4066261/bam-adebayo"  target="_blank">See Profile</a>
+        </div>
+    </div>
+
+    <div class="card border-dark bg-warning">
+        <div>
+            <h4>#23</h4>
+        </div>
+        <img src="{% static 'img/4.jpg' %}" class="card-img-top" alt="">
+        <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">LeBron James</h4>
+            <a class="btn border-dark btn-warning d-flex justify-content-center" href="https://www.espn.com/nba/player/_/id/1966/lebron-james"  target="_blank">See Profile</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
